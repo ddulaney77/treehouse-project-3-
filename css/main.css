@@ -112,7 +112,8 @@ height:26px;
 
 input:focus,
 textarea:focus {
-  border-color:#000;
+  transition: border;
+  border-bottom: 4px solid darkturquoise;
 }
 
 input:hover,
@@ -221,6 +222,9 @@ flex-direction: row-reverse;
 flex-basis: 25%;
 margin: 0;
 justify-content: flex-end;
+}
+label.topics {
+  width:100%;
 }
 
 textarea {
